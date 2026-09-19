@@ -3,7 +3,7 @@
 #include    <time.h>        
 
 int main () {
-        // initialize random number generator
+       
     srand(time(0));
     // generate random number between 1 and 100
     int randomnumber = rand() % 100 + 1;
@@ -17,7 +17,7 @@ int main () {
         scanf("%d", &guessed);
         
         if (guessed < randomnumber) {
-        printf("higer number\n");
+        printf("higher number\n");
         }
         else if (guessed > randomnumber) {
         printf("lower number\n");}
