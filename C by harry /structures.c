@@ -1,17 +1,29 @@
 #include <stdio.h>
 #include <string.h>
-struct emplyees{
-    int id ;
+
+typedef struct employees
+{
+    int id;
     float salary;
-    char name [100];
+    char name[100];
     int phone_no;
-};
+} employees;
 
-int main(){
-    struct emplyees e1,e2,e3;
-    e1.id,e2.id,e3.id=1,2,3;
-    e1.salary,e2.salary,e3.salary=1000.00,2000.00,3000.00;
-   strcpy( e1.name,"izan")
-    ;
+int main()
+{
+    employees e1, e2, e3;
 
+    e1.id = 1;
+    e2.id = 2;
+    e3.id = 3;
+
+    e1.salary = 1000.00;
+    e2.salary = 2000.00;
+    e3.salary = 3000.00;
+
+    strcpy(e1.name, "izan");
+
+    printf("%d\n", e1.id);
+    printf("%s\n", e1.name);
+    return 0;
 }

@@ -6,9 +6,9 @@ int countvowels(char string[]);
 void checkcharacters(char str[],char ch);
 
 int main (){
-    char str[]="apna college";
-    char ch ='e';
-    checkcharacters(str,ch);
+    char password[]="izan";
+        salting(password);
+  //  checkcharacters(str,ch);
    
 }
 
@@ -20,23 +20,10 @@ void checkcharacters(char str[],char ch){
 }
 } printf("character is not present");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-// void salting(char password[]){
-//     char salt[]="123";
-// password[100];
-//     strcat(password,salt);
-//     puts(password);
+ void salting(char password[]){
+     char salt[]="123"; 
+ strcat(password,salt);
+    puts(password);}
 
 
 

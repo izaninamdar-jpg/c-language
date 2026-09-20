@@ -3,7 +3,7 @@
 int main() {
     int subjects ;
     float marks, sum = 0.0, percentage;
-printf("WELCOMEE TO IZANBHAI KA REPORT CARD");
+printf("WELCOMEE TO   REPORT CARD\n");
 printf("enter the number of subjects you have , bata kitna padha");
 scanf("%d", &subjects);
 
@@ -18,7 +18,7 @@ scanf("%d", &subjects);
     percentage = (sum / (subjects * 100)) * 100;
 
     printf("\n--- Final Report Card ---\n");
-    printf("Total Marks: %f / %d\n", sum,subjects);
+    printf("Total Marks: %f \n", sum);
     printf("Percentage: %f\n", percentage);
 
     if (percentage >= 90) {
