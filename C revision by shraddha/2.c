@@ -11,8 +11,7 @@ int main (){
     printf( "%d", c);
     return 0;
   } 
-  #include <stdio.h>
-
+  #include <stdio.h>  
 int temp (int a );
 int main (){
     temp(5);
@@ -25,4 +24,4 @@ int temp (int a){
         printf("cold\n");
     }
     return 0;
-}
+}     
